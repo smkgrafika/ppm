@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Style untuk gambar */
+        .galeri-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Style untuk navbar */
+        .navbar.navbar-dark .navbar-nav .nav-link {
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+
+        .navbar.navbar-dark .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        /* Style untuk navbar yang baru */
+        .bg-biru {
+            background-color: #15477A !important;
+        }
+
+        #my-nav .navbar-nav .nav-link {
+            padding: 10px 20px;
+            color: #fff;
+        }
+
+        #my-nav .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        #my-nav .navbar-toggler {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        #my-nav .navbar-toggler-icon {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-biru">
+    <div class="container">
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">PRESTASI SMK GRAFIKA DUKUHTURI<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="tenaga-pendidik">
+    <div class="container">
+        <div class="section-title">
+            <h3>Prestasi</h3>
+        </div>
+        <div class="section-body">
+            <div id="slider-tools-1"></div>
+            <div class="owl-carousel" id="tenaga-pendidik-slider" style="display: flex; justify-content: space-between;">
+                <!-- Guru 1 -->
+                <div class="section-item-slider" style="flex: 1; margin-right: 15px;">
+                    <img class="foto-guru" src="assets/img/fotodua.jpg" alt="">
+                    <div class="section-item-caption">
+                        <h5>Guru</h5>
+                        <h6>Guru Bahasa Indonesia</h6>
+                    </div>
+                </div>
+                
+                <!-- Guru 2 -->
+                <div class="section-item-slider" style="flex: 1; margin-right: 15px;">
+                    <img class="foto-guru" src="assets/img/fotodua.jpg" alt="">
+                    <div class="section-item-caption">
+                        <h5>Maudy Ayunda</h5>
+                        <h6>Guru Bahasa Inggris</h6>
+                    </div>
+                </div>
+                
+                <!-- Guru 3 -->
+                <div class="section-item-slider" style="flex: 1;">
+                    <img class="foto-guru" src="assets/img/fotodua.jpg" alt="">
+                    <div class="section-item-caption">
+                        <h5>Bunga Citra</h5>
+                        <h6>Guru Matematika</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

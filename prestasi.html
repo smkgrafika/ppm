@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Style untuk gambar */
+        .galeri-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Style untuk navbar */
+        .navbar.navbar-dark .navbar-nav .nav-link {
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+
+        .navbar.navbar-dark .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        /* Style untuk navbar yang baru */
+        .bg-biru {
+            background-color: #15477A !important;
+        }
+
+        h3.display-6 {
+            text-align: center;
+        }
+
+        #my-nav .navbar-nav .nav-link {
+            padding: 10px 20px;
+            color: #fff;
+        }
+
+        #my-nav .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        #my-nav .navbar-toggler {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        #my-nav .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-biru">
+        <div class="container">
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse justify-content-start">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">BERANDA<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1> </h1>
+
+    <!-- Container untuk gambar-gambar -->
+    <div class="container">
+        <h3 class="display-6 mb-4">PRESTASI SMK GRAFIKA DUKUHTURI</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="galeri-img" src="assets/img/prestasi5.jpg" alt="Andika Maulana">
+                <div class="Andika Maulana">
+                    <h4>Andika Maulana</h4>
+                    <p>Juara 3 pencak silat Pagar Nusa Dewasa Kelas H Putra</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="galeri-img" src="assets/img/prestasi1.jpg" alt="Aditia Saputra">
+                <div class="Andika Maulana">
+                    <h4>Andika Maulana</h4>
+                    <p>Juara 1 seleksi pencak silat Pagar Nusa dan mewakili PC PS NU Pagar Nusa kabupaten Tegal</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="galeri-img" src="assets/img/prestasi2.jpg" alt="Aditia Saputra">
+                <div class="Aditia Saputra">
+                    <h4>Aditia Saputra</h4>
+                    <p>Juara 1 seleksi pencak silat Pagar Nusa dan mewakili PC PS NU Pagar Nusa kabupaten Tegal</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="galeri-img" src="assets/img/prestasi4.jpg" alt="Rasya Chelsea Apriliani">
+                <div class="Rasya Chelsea Apriliani">
+                    <h4>Rasya Chelsea Apriliani</h4>
+                    <p>Juara 1 seleksi pencak silat Pagar Nusa dan mewakili PC PS NU Pagar Nusa kabupaten Tegal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
